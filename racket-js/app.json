@@ -1,0 +1,7 @@
+{
+    "name": "racketJs",
+    "cmlVersion": "1-1-58",
+    "displayName": "Racket Js",
+    "start": "racketJsExample",
+    "minify": true
+}

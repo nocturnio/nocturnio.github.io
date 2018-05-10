@@ -1,0 +1,9 @@
+NavBar racketJsNavBar {
+    title: "Racket Js"
+    color: "blue"
+    colorShade: "darken-3"
+    
+    load() {
+        cml.new("racketJsExample", "https://nocturnio.github.io/Racket-js/example1.rkt");
+    }
+}
