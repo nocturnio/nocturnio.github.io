@@ -1,5 +1,7 @@
-Card racketJsExample(url) {
+Card racketJsExample(title, url) {
+    title: title
     Code {
+        type: "scheme"
         url: url
     }
 }

@@ -2,8 +2,7 @@ NavBar racketJsNavBar {
     title: "Racket Js"
     color: "blue"
     colorShade: "darken-3"
-    
     load() {
-        cml.new("racketJsExample", "https://nocturnio.github.io/racket-js/example1.rkt");
+        cml.new("racketJsExample", "Object Oriented Example", "https://nocturnio.github.io/racket-js/example1.rkt");
     }
 }
