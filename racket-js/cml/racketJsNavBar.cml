@@ -4,6 +4,6 @@ NavBar racketJsNavBar {
     colorShade: "darken-3"
     
     load() {
-        cml.new("racketJsExample", "https://nocturnio.github.io/Racket-js/example1.rkt");
+        cml.new("racketJsExample", "https://nocturnio.github.io/racket-js/example1.rkt");
     }
 }
