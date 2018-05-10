@@ -3,5 +3,13 @@
     "cmlVersion": "1-1-58",
     "displayName": "Racket Js",
     "start": "racketJsNavBar",
-    "minify": true
+    "minify": true,
+    "plugins": {
+        "scheme highlightjs": {
+            "name": "scheme highlightjs",
+            "order": 0,
+            "type": "javascript",
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scheme.min.js"
+        }
+    }
 }
