@@ -1,4 +1,4 @@
-Card racketJsExampleAftere(title, url) {
+Card racketJsExampleAfter(title, url) {
     size: 6
     title: title
     Code {
