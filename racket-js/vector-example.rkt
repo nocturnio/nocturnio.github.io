@@ -1,5 +1,3 @@
-#lang racket
-
 (require racket-js)
 
 (provide vector-example)
