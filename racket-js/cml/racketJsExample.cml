@@ -3,7 +3,7 @@ Card racketJsExample(title, value) {
     offset: 2
     title: title
     Editor {
-        mode: "Scheme"
+        mode: "scheme"
         value: value
         disabled: true
         theme: "monokai"
