@@ -1,9 +1,10 @@
-Card racketJsExample(title, url) {
+Card racketJsExample(title, value) {
     size: 8
-    offset: 1
+    offset: 2
     title: title
-    Code {
-        type: "scheme"
-        url: url
+    Editor {
+        mode: "Scheme"
+        value: value
+        disabled: true
     }
 }
