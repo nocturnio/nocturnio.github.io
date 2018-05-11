@@ -6,5 +6,6 @@ Card racketJsExample(title, value) {
         mode: "Scheme"
         value: value
         disabled: true
+        theme: "monokai"
     }
 }
