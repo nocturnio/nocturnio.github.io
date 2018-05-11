@@ -2,6 +2,8 @@
 
 (require racket-js)
 
+(provide (all-defined-out))
+
 (module/js oo-example
 
   (require basejs)

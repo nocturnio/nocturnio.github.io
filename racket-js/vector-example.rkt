@@ -2,6 +2,8 @@
 
 (require racket-js)
 
+(provide vector-example)
+
 (module/js vector-example
 
   (require basejs)

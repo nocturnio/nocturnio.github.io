@@ -4,14 +4,8 @@ NavBar racketJsNavBar {
     color: "blue"
     colorShade: "darken-3"
     load() {
-        self.getFile("Object Oriented Example", "https://nocturnio.github.io/racket-js/oo-example.rkt");
-        self.getFile("Vector Example", "https://nocturnio.github.io/racket-js/vector-example.rkt");
-    }
-    HttpGet getFile(title, url) {
-        url: url
-        type: "TEXT"
-        ok(res) {
-            cml.new("racketJsExample", title, res);
-        }
+        cml.new("racketJsExample", "Class Example", "https://nocturnio.github.io/racket-js/oo-example.rkt");
+        cml.new("racketJsExample", "Vector Example", "https://nocturnio.github.io/racket-js/vector-example.rkt");
+        cml.new("racketJsExample", "Module Example", "https://nocturnio.github.io/racket-js/module-example.rkt");
     }
 }
