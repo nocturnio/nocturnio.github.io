@@ -62,3 +62,5 @@
   (send lion speak)
 
   )
+
+(send oo-example write-to-file: "oo-example.js")

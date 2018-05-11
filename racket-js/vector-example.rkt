@@ -14,3 +14,5 @@
   (displayln (let* ([i 10] [j (+ i 10)]) (+ j i)))
 
   )
+
+(send vector-example write-to-file: "vector-example.js")

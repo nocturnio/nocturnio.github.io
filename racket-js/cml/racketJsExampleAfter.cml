@@ -1,0 +1,8 @@
+Card racketJsExampleAftere(title, url) {
+    size: 6
+    title: title
+    Code {
+        type: "javascript"
+        url: url
+    }
+}
