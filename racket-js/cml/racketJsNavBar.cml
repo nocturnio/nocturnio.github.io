@@ -7,5 +7,6 @@ NavBar racketJsNavBar {
         cml.new("racketJsExample", "Class Example", "https://nocturnio.github.io/racket-js/oo-example.rkt");
         cml.new("racketJsExample", "Vector Example", "https://nocturnio.github.io/racket-js/vector-example.rkt");
         cml.new("racketJsExample", "Module Example", "https://nocturnio.github.io/racket-js/module-example.rkt");
+        cml.new("racketJsLinks");
     }
 }
