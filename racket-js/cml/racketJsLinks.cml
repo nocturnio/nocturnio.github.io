@@ -4,5 +4,11 @@ Card racketJsLinks {
     Link {
         url: "https://github.com/nocturnio/racket-js"
         label: "Git Hub"
+        newTab: true
+    }
+    Link {
+        url: "https://nocturn.io"
+        label: "Nocturn"
+        newTab: true
     }
 }

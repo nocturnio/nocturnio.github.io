@@ -1,5 +1,3 @@
-#lang racket
-
 (require "vector-example.rkt")
 (require "oo-example.rkt")
 
